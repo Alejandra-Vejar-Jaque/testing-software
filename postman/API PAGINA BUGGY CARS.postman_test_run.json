@@ -1,0 +1,93 @@
+{
+	"id": "f5cbed3f-33c4-4e45-b541-d238a5cdba94",
+	"name": "API PAGINA BUGGY CARS",
+	"timestamp": "2024-09-10T22:23:31.139Z",
+	"collection_id": "37533648-d758810c-f81e-486f-bea0-749f2ee34f3e",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 12,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-09-10T22:23:23.520Z",
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "48a13c12-d20b-415b-8333-14c16da1a488",
+			"name": "API Lamborgini",
+			"url": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/ckl2phsabijs71623vk0?modelsPage=1",
+			"time": 2393,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Validar que el codigp de respuesta sea  200": true,
+				"Response time is less than 800ms": false,
+				"Respuesta incluye nombre del auto": true,
+				"Respuesta incluye nombre de la descripcion": true,
+				"Respuesta incluye nombre de la imagen": true
+			},
+			"testPassFailCounts": {
+				"Validar que el codigp de respuesta sea  200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time is less than 800ms": {
+					"pass": 0,
+					"fail": 3
+				},
+				"Respuesta incluye nombre del auto": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Respuesta incluye nombre de la descripcion": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Respuesta incluye nombre de la imagen": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				2232,
+				2241,
+				2393
+			],
+			"allTests": [
+				{
+					"Validar que el codigp de respuesta sea  200": true,
+					"Response time is less than 800ms": false,
+					"Respuesta incluye nombre del auto": true,
+					"Respuesta incluye nombre de la descripcion": true,
+					"Respuesta incluye nombre de la imagen": true
+				},
+				{
+					"Validar que el codigp de respuesta sea  200": true,
+					"Response time is less than 800ms": false,
+					"Respuesta incluye nombre del auto": true,
+					"Respuesta incluye nombre de la descripcion": true,
+					"Respuesta incluye nombre de la imagen": true
+				},
+				{
+					"Validar que el codigp de respuesta sea  200": true,
+					"Response time is less than 800ms": false,
+					"Respuesta incluye nombre del auto": true,
+					"Respuesta incluye nombre de la descripcion": true,
+					"Respuesta incluye nombre de la imagen": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 6866,
+	"collection": {
+		"requests": [
+			{
+				"id": "48a13c12-d20b-415b-8333-14c16da1a488",
+				"method": "GET"
+			}
+		]
+	}
+}
